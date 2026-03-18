@@ -1,0 +1,16 @@
+=== RINGKASAN STATISTIK NUMPY ===
+Rata-rata       : 73.70
+Median          : 71.00
+Standar Deviasi : 11.71
+Nilai Min       : 57
+Nilai Max       : 92
+
+=== RINGKASAN DATAFRAME ===
+Jumlah Baris    : 10
+Jumlah Lulus    : 6
+Jumlah Tdk Lulus: 4
+
+=== OOP: GRADEBOOK SUMMARY ===
+Total Data  : 10
+Rata-rata   : 73.70
+Pass Rate   : 60.00%
