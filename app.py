@@ -18,17 +18,17 @@ groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 # KONFIGURASI INTI (5 TUNABLE PARAMETER)
 # -----------------------------
 # 1) Ukuran chunk 
-CHUNK_SIZE = 300
+CHUNK_SIZE = 150
 # 2) Banyaknya kandidat awal dari vector search
-TOP_K_INITIAL = 20
+TOP_K_INITIAL = 45
 # 3) Jumlah konteks 
-FINAL_TOP_M = 5
+FINAL_TOP_M = 9
 # 4) Reranker (Cross-Encoder) 
 USE_RERANKER = True
 # 5) Temperatur generasi 
-TEMPERATURE = 0.2
+TEMPERATURE = 0.8
 # 6) Model yang tersedia di Groq ada banyak, coba ganti-ganti ke yang lain dan coba bandingkan hasilnya
-GROQ_MODEL = "openai/gpt-oss-120b"  # model default di Groq
+GROQ_MODEL = "llama-3.1-8b-instant"  # model default di Groq
 
 # Model lain yang bisa dicobain: openai/gpt-oss-120b, llama-3.3-70b-versatile
 
